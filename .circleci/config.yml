@@ -21,7 +21,7 @@ orbs:
 
 jobs:
   build:
-    working_directory: ~/Game-Browser
+    working_directory: ~/todo-list-8
     docker:
       - image: cimg/ruby:3.1.0
     steps:
